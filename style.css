@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90svh;
+    padding: 1px;
+}
+
+hr {
+    width: 100%;
+}
+
+h2 {
+    color: coral;
+}
+
+#board {
+    height: 450px;
+    width: 450px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#numbers {
+    display: flex;
+    height: 50px;
+    width: 450px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
